@@ -25,9 +25,8 @@ function App() {
           rel="noopener noreferrer"
         >
           开始学习啦
-          
+          <MyButton />
         </a>
-        <MyButton />
       </header>
     </div>
   );

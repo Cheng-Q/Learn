@@ -1,15 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 
-function MyButton(){
-  function clickBtn(){
-    console.warn('测试代氨基');
-    
-  }
-  return (
-    <button onClick={clickBtn}>这是测试按钮</button>
-  )
-}
 function App() {
   return (
     <div className="App">
@@ -25,9 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           开始学习啦
-          
         </a>
-        <MyButton />
       </header>
     </div>
   );

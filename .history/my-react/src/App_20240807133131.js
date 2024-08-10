@@ -7,7 +7,7 @@ function MyButton(){
     
   }
   return (
-    <button onClick={clickBtn}>这是测试按钮</button>
+    <button onClick='clickBtn'>这是测试按钮</button>
   )
 }
 function App() {
@@ -25,9 +25,8 @@ function App() {
           rel="noopener noreferrer"
         >
           开始学习啦
-          
+          <MyButton />
         </a>
-        <MyButton />
       </header>
     </div>
   );
