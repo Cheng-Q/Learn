@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import HellowReact from "./hellowReact";
+import HellowReact from "./HellowReact";
 
 function App() {
   return (
